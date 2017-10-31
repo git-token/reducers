@@ -4,23 +4,16 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _defineProperty2 = require('babel-runtime/helpers/defineProperty');
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _defineProperty3 = _interopRequireDefault(_defineProperty2);
-
-var _extends3 = require('babel-runtime/helpers/extends');
-
-var _extends4 = _interopRequireDefault(_extends3);
-
-exports.default = Registry;
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var DEFAULT_STATE = {
+  address: '0x0',
   organizations: {}
 };
 
-function Registry() {
+var Registry = function Registry() {
   var state = arguments.length <= 0 || arguments[0] === undefined ? DEFAULT_STATE : arguments[0];
   var action = arguments[1];
   var type = action.type;
@@ -29,9 +22,16 @@ function Registry() {
 
   switch (type) {
     case 'SET_REGISTRY_DETAILS':
-      return (0, _extends4.default)({}, state, (0, _defineProperty3.default)({}, id, value));
+      return _extends({}, state, _defineProperty({}, id, value));
+      break;
+    case 'SET_REGISTRY_ORGANIZATION_DETAILS':
+      return _extends({}, state, {
+        organizations: _extends({}, state['organizations'], _defineProperty({}, id, value))
+      });
       break;
     default:
       return state;
   }
-}
+};
+
+exports.default = Registry;

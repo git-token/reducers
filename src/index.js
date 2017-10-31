@@ -1,7 +1,11 @@
-import Account from './Account'
-import Registry from './Registry'
+import Account from './Account.js'
+import Registry from './Registry.js'
+import Admin from './Admin.js'
 
-export {
-  Account,
-  Registry
+const modules = {
+  Account: Account,
+  Registry: Registry,
+  Admin: Admin
 }
+
+export default modules

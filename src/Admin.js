@@ -1,11 +1,12 @@
 const DEFAULT_STATE = {
-  address: '0x0'
+  address: '0x0',
+  signer: '0x0'
 }
 
-const Account = function(state=DEFAULT_STATE, action) {
+ const Admin = function(state=DEFAULT_STATE, action) {
   const { type, id, value } = action
   switch(type) {
-    case 'SET_ACCOUNT_DETAILS':
+    case 'SET_ADMIN_DETAILS':
       return {
         ...state,
         [id]: value
@@ -16,4 +17,4 @@ const Account = function(state=DEFAULT_STATE, action) {
   }
 }
 
-export default Account
+export default Admin
