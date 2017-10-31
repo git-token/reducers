@@ -20,13 +20,18 @@ var _Admin = require('./Admin.js');
 
 var _Admin2 = _interopRequireDefault(_Admin);
 
+var _Layout = require('./Layout.js');
+
+var _Layout2 = _interopRequireDefault(_Layout);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var modules = {
   Account: _Account2.default,
   Register: _Register2.default,
   Registry: _Registry2.default,
-  Admin: _Admin2.default
+  Admin: _Admin2.default,
+  Layout: _Layout2.default
 };
 
 exports.default = modules;
