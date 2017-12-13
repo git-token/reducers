@@ -14,11 +14,11 @@ var DEFAULT_STATE = {
 };
 
 var Admin = function Admin() {
-  var state = arguments.length <= 0 || arguments[0] === undefined ? DEFAULT_STATE : arguments[0];
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : DEFAULT_STATE;
   var action = arguments[1];
-  var type = action.type;
-  var id = action.id;
-  var value = action.value;
+  var type = action.type,
+      id = action.id,
+      value = action.value;
 
   switch (type) {
     case 'SET_ADMIN_DETAILS':

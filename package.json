@@ -1,6 +1,6 @@
 {
   "name": "gittoken-reducers",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Redux Reducers for GitToken Application State Management",
   "main": "./dist/index.js",
   "directories": {
@@ -32,5 +32,8 @@
     "chai": "^4.0.1"
   },
   "author": "Ryan Tate",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gittoken-redux-actions": "0.0.2"
+  }
 }

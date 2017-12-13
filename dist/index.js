@@ -24,6 +24,10 @@ var _Layout = require('./Layout.js');
 
 var _Layout2 = _interopRequireDefault(_Layout);
 
+var _Actions = require('./Actions');
+
+var _Actions2 = _interopRequireDefault(_Actions);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var modules = {
@@ -31,7 +35,8 @@ var modules = {
   Register: _Register2.default,
   Registry: _Registry2.default,
   Admin: _Admin2.default,
-  Layout: _Layout2.default
+  Layout: _Layout2.default,
+  Actions: _Actions2.default
 };
 
 exports.default = modules;

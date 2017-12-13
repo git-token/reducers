@@ -1,5 +1,5 @@
 const DEFAULT_STATE = {
-  address: '0x0',
+  address: '0x9083a3e544ae9ee0d6d33869df1b071a3e77f5d8',
   organizations: {}
 }
 
