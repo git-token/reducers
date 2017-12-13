@@ -2,7 +2,7 @@ import { AccountActions } from 'gittoken-redux-actions'
 
 
 const DEFAULT_STATE = {
-  account: new AccountActions()
+  account: new AccountActions({ url: 'https://alpha.gittoken.io/api/profile' })
 }
 
 
