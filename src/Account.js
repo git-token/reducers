@@ -1,6 +1,7 @@
 const DEFAULT_STATE = {
   address: '0x0',
-  profile: {}
+  profile: {},
+  email: ''
 }
 
 const Account = function(state=DEFAULT_STATE, action) {

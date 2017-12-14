@@ -10,7 +10,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var DEFAULT_STATE = {
   address: '0x0',
-  profile: {}
+  profile: {},
+  email: ''
 };
 
 var Account = function Account() {
