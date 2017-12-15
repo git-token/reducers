@@ -11,7 +11,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var DEFAULT_STATE = {
   address: '0x0',
   profile: {},
-  email: ''
+  email: '',
+  menuItem: 0,
+  menu: [{
+    key: 'register',
+    title: 'Register Organization',
+    link: '/register'
+  }, {
+    key: 'contributions',
+    title: 'Contribution Activity',
+    link: '/contributions'
+  }]
 };
 
 var Account = function Account() {

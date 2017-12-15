@@ -1,7 +1,17 @@
 const DEFAULT_STATE = {
   address: '0x0',
   profile: {},
-  email: ''
+  email: '',
+  menuItem: 0,
+  menu: [{
+    key: 'register',
+    title: 'Register Organization',
+    link: '/register'
+  }, {
+    key: 'contributions',
+    title: 'Contribution Activity',
+    link: '/contributions'
+  }]
 }
 
 const Account = function(state=DEFAULT_STATE, action) {
