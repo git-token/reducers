@@ -8,7 +8,7 @@ exports.default = Actions;
 var _gittokenReduxActions = require('gittoken-redux-actions');
 
 var DEFAULT_STATE = {
-  account: new _gittokenReduxActions.AccountActions({ url: 'https://alpha.gittoken.io/api/profile' })
+  account: new _gittokenReduxActions.AccountActions({ url: 'https://gittoken.io/api/profile' })
 };
 
 function Actions() {

@@ -1,9 +1,10 @@
-import Account from './Account.js'
-import Registry from './Registry.js'
-import Register from './Register.js'
-import Admin from './Admin.js'
-import Layout from './Layout.js'
+import Account from './Account'
+import Registry from './Registry'
+import Register from './Register'
+import Admin from './Admin'
+import Layout from './Layout'
 import Actions from './Actions'
+import Media from './Media'
 
 const modules = {
   Account,
@@ -11,7 +12,8 @@ const modules = {
   Registry,
   Admin,
   Layout,
-  Actions
+  Actions,
+  Media
 }
 
 export default modules
