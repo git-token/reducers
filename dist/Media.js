@@ -9,7 +9,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var DEFAULT_STATE = {
-  rtmpUrl: 'rtmp://138.68.225.133/live/gittoken'
+  rtmpUrl: 'http://138.68.225.133/hls/gittoken.m3u8'
 };
 
 var Media = function Media() {

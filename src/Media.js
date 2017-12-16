@@ -1,5 +1,5 @@
 const DEFAULT_STATE = {
-  rtmpUrl: 'rtmp://138.68.225.133/live/gittoken'
+  rtmpUrl: 'http://138.68.225.133:8080/live/gittoken.m3u8'
 }
 
 const Media = function(state=DEFAULT_STATE, action) {
