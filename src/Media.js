@@ -1,5 +1,5 @@
 const DEFAULT_STATE = {
-  streamUrl: 'http://138.68.225.133:8080/live/gittoken.m3u8',
+  streamUrl: 'https://livestream.gittoken.io/live/gittoken.m3u8',
   streamLive: true
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "gittoken-reducers",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Redux Reducers for GitToken Application State Management",
   "main": "./dist/index.js",
   "directories": {
