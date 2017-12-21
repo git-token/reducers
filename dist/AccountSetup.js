@@ -13,23 +13,23 @@ var DEFAULT_STATE = {
   steps: {
     welcome: {
       title: 'Welcome',
-      link: '/'
+      link: '/account/setup/'
     },
     metamask: {
       title: 'Setup MetaMask',
-      link: '/metamask'
+      link: '/account/setup/metamask'
     },
     registerAccount: {
       title: 'Register Account',
-      link: '/register_account'
+      link: '/account/setup/register_account'
     },
     registerOrg: {
       title: 'Register Organization',
-      link: '/register_org'
+      link: '/account/setup/register_org'
     },
     finish: {
       title: 'Finish',
-      link: '/finish'
+      link: '/account/setup/finish'
     }
   }
 };
