@@ -1,4 +1,5 @@
 import Account from './Account'
+import AccountSetup from './AccountSetup'
 import Registry from './Registry'
 import Register from './Register'
 import Admin from './Admin'
@@ -8,6 +9,7 @@ import Media from './Media'
 
 const modules = {
   Account,
+  AccountSetup,
   Register,
   Registry,
   Admin,

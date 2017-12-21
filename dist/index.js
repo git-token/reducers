@@ -8,6 +8,10 @@ var _Account = require('./Account');
 
 var _Account2 = _interopRequireDefault(_Account);
 
+var _AccountSetup = require('./AccountSetup');
+
+var _AccountSetup2 = _interopRequireDefault(_AccountSetup);
+
 var _Registry = require('./Registry');
 
 var _Registry2 = _interopRequireDefault(_Registry);
@@ -36,6 +40,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var modules = {
   Account: _Account2.default,
+  AccountSetup: _AccountSetup2.default,
   Register: _Register2.default,
   Registry: _Registry2.default,
   Admin: _Admin2.default,
