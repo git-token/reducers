@@ -25,7 +25,34 @@ const DEFAULT_STATE = {
     "public_members_url": "https://api.github.com/orgs/git-token/public_members{/member}",
     "avatar_url": "https://avatars3.githubusercontent.com/u/29322650?v=4",
     "description": "Issue and Earn Ethereum Tokens for Git Contributions!"
-  }]
+  }],
+  steps: {
+    welcome: {
+      title: 'Welcome',
+      active: true,
+      link: '/'
+    },
+    metamask: {
+      title: 'Setup MetaMask',
+      active: false,
+      link: '/metamask'
+    },
+    registerAccount: {
+      title: 'Register Account',
+      active: false,
+      link: '/register_account'
+    },
+    registerOrg: {
+      title: 'Register Organization',
+      active: false,
+      link: '/register_org'
+    },
+    finish: {
+      title: 'Finish',
+      active: false,
+      link: '/finish'
+    },
+  }
 }
 
 const Account = function(state=DEFAULT_STATE, action) {
