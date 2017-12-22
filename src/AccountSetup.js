@@ -5,17 +5,21 @@ const DEFAULT_STATE = {
       title: 'Welcome',
       link: '/account/setup/'
     },
+    terms: {
+      title: 'Welcome',
+      link: '/account/setup/terms'
+    },
     metamask: {
       title: 'Setup MetaMask',
       link: '/account/setup/metamask'
     },
-    registerAccount: {
+    verify: {
       title: 'Register Account',
-      link: '/account/setup/register_account'
+      link: '/account/setup/verify'
     },
-    registerOrg: {
+    organization: {
       title: 'Register Organization',
-      link: '/account/setup/register_org'
+      link: '/account/setup/organization'
     },
     finish: {
       title: 'Finish',
