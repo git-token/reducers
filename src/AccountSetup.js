@@ -6,7 +6,7 @@ const DEFAULT_STATE = {
       link: '/account/setup/'
     },
     terms: {
-      title: 'Welcome',
+      title: 'Terms of Service',
       link: '/account/setup/terms'
     },
     metamask: {
