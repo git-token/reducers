@@ -1,5 +1,7 @@
 const DEFAULT_STATE = {
-  address: '0x0',
+  metaMaskInstalled: false,
+  metaMaskLocked: true,
+  address: '',
   profile: {},
   email: '',
   menu: [{

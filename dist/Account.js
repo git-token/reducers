@@ -9,7 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var DEFAULT_STATE = {
-  address: '0x0',
+  metaMaskInstalled: false,
+  metaMaskLocked: true,
+  address: '',
   profile: {},
   email: '',
   menu: [{
