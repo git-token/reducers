@@ -24,7 +24,7 @@ var DEFAULT_STATE = {
       link: '/account/setup/metamask'
     },
     verify: {
-      title: 'Register Account',
+      title: 'Verify Account',
       link: '/account/setup/verify'
     },
     organization: {
