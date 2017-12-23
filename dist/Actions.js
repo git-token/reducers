@@ -5,10 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = Actions;
 
-var _gittokenReduxActions = require('gittoken-redux-actions');
+var _dist = require('gittoken-redux-actions/dist/');
 
 var DEFAULT_STATE = {
-  account: new _gittokenReduxActions.Account({ profileApiUrl: 'https://gittoken.io/api/profile' })
+  account: new _dist.Account({ accountApiUrl: 'https://gittoken.io/api/account' })
 };
 
 function Actions() {

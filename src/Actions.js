@@ -1,8 +1,8 @@
-import { Account } from 'gittoken-redux-actions'
+import { Account } from 'gittoken-redux-actions/dist/'
 
 
 const DEFAULT_STATE = {
-  account: new Account({ profileApiUrl: 'https://gittoken.io/api/profile' })
+  account: new Account({ accountApiUrl: `https://gittoken.io/api/account` })
 }
 
 
