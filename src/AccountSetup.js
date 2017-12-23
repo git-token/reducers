@@ -13,9 +13,9 @@ const DEFAULT_STATE = {
       title: 'Setup MetaMask',
       link: '/account/setup/metamask'
     },
-    verify: {
-      title: 'Verify Account',
-      link: '/account/setup/verify'
+    register: {
+      title: 'Register Account',
+      link: '/account/setup/register'
     },
     organization: {
       title: 'Register Organization',
